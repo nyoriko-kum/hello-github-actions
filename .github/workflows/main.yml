@@ -4,7 +4,7 @@ name: Hello Github Actions
 on:
    push:
        branches:
-           -'main'
+           - 'main'
 # ジョブを追加します。（最新バージョンのUbuntu上でビルド）
 jobs:
     build:
